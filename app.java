@@ -5,6 +5,23 @@ public class HelloWorld {
     public static void main(String[] args) {
 
         // Creates a reader instance which takes
+feature-2
+        # adding some functions in feature-2
+public class SumNatural {
+
+    public static void main(String[] args) {
+
+        int num = 100, sum = 0;
+
+        for(int i = 1; i <= num; ++i)
+        {
+            // sum = sum + i;
+            sum += i;
+        }
+
+        System.out.println("Sum = " + sum);
+    }
+        # function is added
         # here we add some function in feature-1
         public class SwapNumbers {
 
@@ -31,6 +48,7 @@ public class HelloWorld {
     }
 }
         # we added some of feature in feature-1
+ main
         // input from standard input - keyboard
         Scanner reader = new Scanner(System.in);
         System.out.print("Enter a number: ");
